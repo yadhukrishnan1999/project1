@@ -42,3 +42,7 @@ def send_email(request):
     recipient_list = [request.GET['email'],]
     send_mail( subject, message, email_from, recipient_list )
     return redirect('home:home')
+
+
+def test():
+    pass
