@@ -1,0 +1,75 @@
+.topnav {
+    position:relative;
+    overflow: hidden;
+  }
+
+  .topnav a {
+  color:black;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    letter-spacing:2px;
+  }
+
+  .topnav a:hover {
+    color: red;
+    text-decoration: none;
+  }
+
+
+.map{
+  position: relative;
+  padding: 15px;
+  margin: auto;
+}
+
+.icon {
+font-size:25px;
+align:center;
+padding:10px;
+margin:8px;
+  position: relative;
+  top: 97px;
+  left: 950px;
+  bottom:0px;
+  right:0;
+}
+.courses{
+position:relative;
+padding:0;
+margin:0;
+}
+.courses:hover{
+padding:10px;
+margin:3px;
+background-color:#DE3163;
+opacity:90%;
+color:white;
+letter-spacing:2px;
+}
+.about{
+position:relative;
+padding:0;
+margin:0;
+}
+.about:hover{
+padding:10px;
+margin:3px;
+background-color:black;
+opacity:50%;
+color:white;
+letter-spacing:2px;
+}
+
+.contact:hover{
+padding:10px;
+margin:3px;
+background-color:black;
+opacity:50%;
+color:white;
+letter-spacing:2px;
+}
+

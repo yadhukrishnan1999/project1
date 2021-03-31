@@ -1,0 +1,13 @@
+.about{
+position:relative;
+padding:0;
+margin:0;
+}
+.about:hover{
+padding:10px;
+margin:3px;
+background-color:#DE8167;
+opacity:90%;
+color:white;
+letter-spacing:2px;
+}

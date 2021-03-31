@@ -1,0 +1,39 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/style2.css' %}">
+    <title>Title</title>
+</head>
+<body>
+<div class="about">
+    <a name="about"></a>
+    <h4>ABOUT US</h4>
+    <p>Al-Ameen College, Edathala, Aluva is an pioneering Arts and Science Co-Educational Institution of higher
+        education under aided sector. It is one of the flagship institutions run by the Al-Ameen Education Trust, Kochi.
+        The Trust is part of the Al-Ameen Movement established in Bangalore by a group of dedicated, inspired thinkers
+        and professionals who wished to impart education among the minority sections of the society.
+
+
+        The Founder of Al-Ameen Movement, Dr.Mumthaz Ahamed Khan, is a visionary who strove to make his dreams reality.
+        His innate integrity and compassion compelled him towards the development of the downtrodden sections of
+        society. He visualized three major areas for effective socio-economic uplift; namely, education, health care and
+        banking. The realisation of this thought led to the establishment of the Al-Ameen Movement and its numerous
+        institutions of excellence.</p>
+</div>
+
+<!--<form action="" method="post">-->
+<!--    {% csrf_token %}-->
+<!--    {{form}}-->
+<!--    <input type="submit" value="save">-->
+<!--</form>-->
+
+<form action="." method="POST">
+    {% csrf_token %}
+    <input type="text" , name="user">
+    <input type="text" , name="age">
+    <input type="submit" , name="submit">
+</form>
+
+</body>
+</html>
